@@ -4,7 +4,10 @@ pipeline {
             label 'docker-agent-python'
             }
       }
-    stages {
+Triggers {
+        pollsSCM ‘*/1***’
+
+stages {
         stage('Build') {
             steps {
                 echo "Building.."
