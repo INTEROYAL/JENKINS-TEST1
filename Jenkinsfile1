@@ -4,9 +4,6 @@ pipeline {
             label 'docker-agent-python'
             }
       }
-Triggers {
-        pollSCM ‘*/2 * * * *’
-      }
 
 stages {
         stage('Build') {
