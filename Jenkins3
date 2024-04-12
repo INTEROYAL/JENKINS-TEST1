@@ -24,7 +24,7 @@ stages {
                 sh 
                 cd myapp
                 python3 hello.py
-                python3 hello.py --name=Marc
+                python3 hello.py --name=MarcT
                 '''
             }
         }
