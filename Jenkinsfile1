@@ -5,7 +5,7 @@ pipeline {
             }
       }
 Triggers {
-        pollsSCM ‘*/2***’
+        pollsSCM ‘*/2 * * * *’
       }
 
 stages {
